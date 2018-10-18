@@ -2,7 +2,7 @@ const search = require('./lib/search')
 
 function main(args){
     if (args.length !== 5){
-        console.error('You need to enter 3 argumants:\n' +
+        console.error('You need to enter 3 arguments:\n' +
                       '1. file extension\n' +
                       '2. text to search\n' +
                       '3. starting path')
